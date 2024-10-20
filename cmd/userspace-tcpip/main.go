@@ -38,7 +38,7 @@ func main() {
 	}
 
 	if err := s.AddProtocolAddress(NICID, protocolAddr, stack.AddressProperties{}); err != nil {
-		log.Fatalf("Failed to add server address: %v", err)
+		log.Fatalf("Failed to add protocol address: %v", err)
 	}
 
 	s.SetRouteTable([]tcpip.Route{
