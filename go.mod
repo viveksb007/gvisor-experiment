@@ -6,6 +6,8 @@ require gvisor.dev/gvisor v0.0.0-20231020174304-b8a429915ff1
 
 require (
 	github.com/google/btree v1.1.2 // indirect
+	github.com/samber/lo v1.47.0 // indirect
 	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/text v0.16.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 )

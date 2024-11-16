@@ -43,3 +43,7 @@
     2024/10/27 20:53:11 Received request from client 192.168.1.1:35599
     2024/10/27 20:53:11 Received response: yo man
     ```
+
+3. Userspace Http client communicating to Internet
+
+    `go run cmd/userspace-tcpclient/main.go -domain google.com`
