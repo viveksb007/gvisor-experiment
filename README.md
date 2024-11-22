@@ -1,5 +1,7 @@
 ## gvisor experiments
 
+Copied gvisor dependency version from https://github.com/v2fly/v2ray-core/blob/master/go.mod#L46
+
 1. Userspace TCP client and server (https://viveksb007.github.io/2024/10/gvisor-userspace-tcp-server-client/)
 
     `go run cmd/userspace-tcpip/main.go`
